@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/styles.css">
+  <title>uploadpicture</title>
+</head>
+<div class="header">
+
+  <h1 id="title">simple yogi</h1>
+</div>
+
+<body>
+  <form enctype="multipart/form-data" action="/result_image" method="POST">
+    <div class="row">
+      <div class="column left"></div>
+      <div class="column middle">
+        <img src="static/images/sloth_editted.jpg" alt="" width=90% height=95%>
+        <p><input class='hello' name="submit" type="url" id="url" placeholder="Insert Link: " required></p>
+        <p><input class="submit" type="submit" name="submit" value="Upload"></p>
+      </div>
+      <div class="column right"></div>
+    </div>
+  </form>
+</body>
+
+</html>

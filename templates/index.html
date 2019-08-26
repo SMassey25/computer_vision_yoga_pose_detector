@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/styles.css">
+
+  <title>simpleyogi</title>
+
+</head>
+<div class="header">
+
+  <h1 id="title">simple yogi</h1>
+</div>
+
+<body>
+
+  <div class="row">
+    <div class="column left">
+    </div>
+
+    <div class="column middle">
+      <img src="static/images/sloth_editted.jpg" alt="" width=90% height=95%>
+      <h3 class=disclaimer>Don't know what yoga pose you did was? Upload a picture or a video to find out.</h3>
+      <div class="column left lbutton">
+        <form action="/uploadpicture" method="POST">
+          <p><input class="submit" type="submit" value="Upload a Picture" /></p>
+      </div>
+      </form>
+      <form action="/video_prediction" method="POST">
+        <div class="column right rbutton">
+          <p><input class="submit" type="submit" value="Use your webcam" /></p>
+        </div>
+      </form>
+
+    </div>
+
+    <div class="column right">
+    </div>
+  </div>
+
+</body>
+
+</html>

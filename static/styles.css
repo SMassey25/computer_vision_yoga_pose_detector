@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+  padding: 0;
+  background-color:  	#DBE6A4;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  background-color:  	#DBE6A4;
+}
+
+.left, .right {
+  width: 38%;
+}
+.rbutton{
+  float:right;
+  width: 50%
+}
+
+.lbutton{
+  float:left;
+}
+
+.middle {
+  width: 26%;
+  /* top: auto; */
+  bottom: auto;
+  padding-top: 75px
+  font-family: 'Raleway', sans-serif;
+}
+.row{
+  background-color:  	#DBE6A4;
+}
+
+.submit {
+  background-color: #afa4e6;
+  border: 1px;
+  border-color:#e6aaa4;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width = 100%
+  top: auto;
+  bottom: auto;
+  margin: 0px;
+  padding:8px;
+
+}
+/* Clear floats after the columns*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  }
+
+  .disclaimer{
+    text-align: center;
+    /* font-weight: lighter; */
+    padding: 15px, 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+
+  ul {
+list-style-type: none;
+}
+
+  li {
+    display: inline-block;
+  }
+
+  .prediction_text{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    overflow: hidden;
+    font-size: 45px;
+    color:#000;
+    /* color:#e6aaa4; */
+  }
+
+  .header{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    overflow: hidden;
+    font-size: 25px;
+    background-color:#e6aaa4;
+    padding: 0px 0px;
+    color:#fff;
+  }
+  #title{
+    background-color:#e6aaa4;
+  }
+  /* label {
+      display: block;
+      font: 1rem 'Fira Sans', sans-serif;
+  }
+   */
+  input,
+  label {
+      margin: .6rem 0;
+  }
+
+  .video{
+     margin: auto;
+     width: auto;
+     /*! border: 3px solid #73AD21; */
+     padding: px;
+     padding-left: 450px;
+   }
+  .submit_video{
+    background-color: #afa4e6;
+    border: 1px;
+    border-color:#e6aaa4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width = 100%
+    top: auto;
+    bottom: auto;
+    margin: 0px;
+    padding:8px;
+    position: absolute;
+    top: 95%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+  }

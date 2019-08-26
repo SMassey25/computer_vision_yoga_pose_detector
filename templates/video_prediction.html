@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/styles.css">
+  <title>Predicting_on_webcam</title>
+</head>
+<div class="header">
+  <h1 id="title">simple yogi</h1>
+</div>
+
+<body>
+  <form action="/" method="GET">
+    <div class="column middle">
+      <img class="video" src="{{ url_for('video_feed') }}">
+      <p><input class="submit_video" type="submit" value="Go Back" /></p>
+    </div>
+  </form>
+</body>
+
+</html>
